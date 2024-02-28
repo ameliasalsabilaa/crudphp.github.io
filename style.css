@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+}
+section {
+  padding-top: 6.7rem;
+}
+/* Navbar */
+.navbar {
+  transition: all 0.5s;
+}
+.nav-link {
+  transition: all 0.2s;
+  color:  #ffd95a;
+}
+.navbar-brand{
+    color: #c07f00;
+    transition: all 0.5s;
+}
+.navbar-brand:hover{
+    transform: scale(1.1);
+}
+.nav-link:hover {
+  color:white;
+  transform: translateY(-5px);
+}
+@media (max-width: 991px) {
+  .offcanvas {
+    backdrop-filter: blur(15px);
+    background-color: transparent;
+  }
+}
+/* beranda */
+header {
+  height: 100vh;
+  background-image: url(img/bg1.jpg);
+}
+.satu {
+  background-color: #c07f00;
+  cursor: pointer;
+  transition: all 1s;
+}
+.satu:hover {
+  background-color: #ffd95a;
+  transform: scale(1.1);
+  color: #4c3d3d;
+}
+.dua {
+  background-color: #ffd95a;
+  cursor: pointer;
+  transition: all 1s;
+  color: #4c3d3d;
+}
+.dua:hover {
+  background-color: #c07f00;
+  transform: scale(1.1);
+  color: white;
+}
+#hubungi img:hover {
+  transform: translateY(-5px);
+}
+#hubungi .icon1, #hubungi  .icon2, #hubungi .icon3 {
+  width: 60px;
+  height: 60px;
+  background: #c07f00;
+  margin: 10px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding-top: 17px;
+  transition: 0.5s;
+}
+#hubungi .icon1:hover, #hubungi  .icon2:hover, #hubungi .icon3:hover{
+  transform: scale(1.1);
+  color: #c07f00;
+  background-color: #ffd95a;
+}

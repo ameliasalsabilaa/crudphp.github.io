@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PerViska</title>
+
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+
+    <!-- Logo website -->
+    <link rel="icon" href="img/logo1.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top mt-0 pt-0 mb-0 pb-0" id="navbar">
+      <div class="container">
+        <a class="navbar-brand fw-bolder fs-2" href="#">PerViska</a>
+        <!-- toggler -->
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- offcanvas Header -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title ps-4" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <!-- offcanvas Menu -->
+          <div class="offcanvas-body d-flex flex-column p-4">
+            <ul class="navbar-nav ms-lg-auto align-content-center fs-5 flex-grow-1 pe-3 p-lg-0 text-white navbar-nav-scroll mt-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link" aria-current="page" href="#beranda">Beranda</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#tentang">Tentang</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#tambah">Gabung</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#hubungi">Hubungi</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Beranda -->
+    <header id="beranda" class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+      <div class="content text-center">
+        <h1 class="text-white">Perpustakaan Viska</h1>
+        <h4 class="text-white">Perbanyak membaca, Kenali dunia.</h4>
+        <button type="button" class="btn btn-outline-light mt-5 ps-3 pe-3 pt-2 w-25 rounded-pill fs-5"><a href="#tentang" class="text-decoration-none text-warning">Mulai</a></button>
+      </div>
+    </header>
+
+    <!-- Tentang -->
+    <section id="tentang">
+      <div class="container text-white">
+        <div class="row justify-content-around">
+          <div class="col-5">
+            <h2 class="text-center">Apa itu Perpustakaan Viska?</h2>
+            <div class="satu p-2 rounded mt-5">
+              Perpustakaan Viska adalah sebuah tempat atau lembaga yang menyediakan koleksi bahan bacaan, seperti buku, majalah, surat kabar, dan materi lainnya, yang dapat dipinjam atau diakses oleh masyarakat umum atau anggota
+              perpustakaan. Tujuan utama perpustakaan adalah menyediakan akses kepada informasi, mendukung pendidikan, penelitian, dan pembelajaran, serta mempromosikan budaya literasi.
+            </div>
+            <div class="satu p-2 rounded mt-4">
+              Perpustakaan Viska terdiri dari berbagai buku dari cerita fiktif hingga cerita non fiktif. Beberapa perpustakaan mungkin fokus pada topik atau jenis koleksi tertentu, seperti perpustakaan khusus yang menitikberatkan pada
+              bidang ilmu tertentu, arsip sejarah, atau perpustakaan anak-anak. Tapi tidak dengan Perpustakaan Viska.
+            </div>
+            <div class="satu p-2 rounded mt-4">
+              Dengan perkembangan teknologi, Perpustakaan Viska juga melibatkan sumber daya digital, seperti e-book, basis data online, dan sumber daya elektronik lainnya. Perpustakaan modern tidak hanya menyediakan akses kepada bahan
+              cetak, tetapi juga mendukung akses kepada informasi digital. Dengan adanya sumber dayaa digital ini, kami mengharapkan pembaca dapat mengakses dengan lebih fleksibel.
+            </div>
+          </div>
+          <div class="col-5">
+            <img src="img/buku.jpg" alt="buku" class="rounded img-fluid mt-5" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tambah (CRUD) -->
+    <section id="tambah">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-5">
+            <img src="img/buku2.jpg" alt="buku" class="rounded img-fluid mt-5" />
+          </div>
+          <div class="col-5">
+            <h2 class="text-center text-white">Mulai Bergabung!</h2>
+            <p class="dua mt-5 rounded p-2">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi itaque modi doloribus minus maxime illo iusto dicta repellat eos ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo culpa sit accusantium natus
+              praesentium suscipit officia perspiciatis! Similique, quos? Quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consequatur alias
+            </p>
+            <p class="dua mt-4 rounded p-2">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi itaque modi doloribus minus maxime illo iusto dicta repellat eos ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo culpa sit accusantium natus
+              praesentium suscipit officia perspiciatis! Similique, quos? Quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consequatur alias
+            </p>
+            <button type="button" class="btn btn-outline-warning p-3 text-white fw-bolder rounded-pill mt-4"><a href="join.php" target="_blank" class="text-decoration-none text-white"> + Bergabung</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hubungi -->
+    <section id="hubungi">
+      <div class="container text-white">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="mb-4 fw-bolder">Hubungi Kami</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center text-white text-center">
+          <div class="col-md-6">
+            <img src="img/hubungi.jpg" alt="profile" class="rounded-circle w-50 border border-5 border-warning-subtle mt-3" />
+            <div class="mt-4 fs-4">Perpustakaan Viska</div>
+            <div class="mt-1 fs-5">Jl. Adi Sucipto No.38, Kerten, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57143</div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="icon1 col-md-2 rounded-circle">
+              <i class="bi bi-whatsapp"></i>
+            </div>
+            <div class="icon2 col-md-2 rounded-circle">
+              <i class="bi bi-instagram"></i>
+            </div>
+            <div class="icon3 col-md-2 rounded-circle">
+              <a href="mailto:xameliasalsabilax@gmail.com" class="mb-2 text-decoration-none" style="color: white"><i class="bi bi-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-white">
+      <p class="fs-6 mt-3 text-light-emphasis pb-4">Dibuat dengan <i class="bi bi-heart-fill" style="color: red"></i> oleh Amelia Salsabila</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
